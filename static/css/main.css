@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: grid;
+    justify-items: center;
+    grid-gap: 1em;
+    /*grid-template-columns: repeat(2, 2fr);*/
+}
+
+/*.block-main {
+    align-self: center;
+    justify-items: center;
+    background-image: url("../images/Test_1066x350.png");
+    width: 84%;
+    height: 350px;
+}*/
+
+.block-news{
+    align-self: center;
+    justify-items: center;
+    background-color: #5fc3e2;
+    height: 250px;
+    width: 84%;
+}
+
+header {
+    /*width: 100%;*/
+    /*background: #37a2d2;*/
+    /*height: 70px;*/
+}
+
+
+.name-company {
+    display: block;
+    font-size: 38pt;
+    line-height: 1;
+    font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    color: #0c4361;
+}
+
+.container {
+    width: 100%;
+    background: #37a2d2;
+    /*max-width: 1024px;*/
+    padding: 15px 150px 15px 150px;
+    margin: 0 auto;
+}
+
+.container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.container > a {
+    text-decoration: none;
+    line-height: 38px;
+    font-family: 'Bangers', cursive;
+    font-size: 38pt;
+    color: #0c4361;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.main-news {
+    position: relative;
+    padding-top: 29%;
+}
+
+/*.block-news {*/
+/*    background-color: #5fc3e2;*/
+/*    height: 100px;*/
+/*}*/
+
+img {
+    position: absolute;
+    left: 8%;
+    top: 3%;
+    width: 84%;
+    height: auto;
+}
+
